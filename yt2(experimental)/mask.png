@@ -1,0 +1,15 @@
+import cv2
+import numpy as np
+
+# Define the dimensions of the mask
+height, width = 720, 1280  # Example dimensions
+
+# Create a blank mask (all zeros, black)
+mask = np.zeros((height, width), dtype=np.uint8)
+
+# Define the region of interest (ROI) and draw on the mask
+x1, y1, x2, y2 = 100, 100, 600, 400  # Example coordinates
+cv2.rectangle(mask, (x1, y1), (x2, y2), (255), thickness=cv2.FILLED)  # White rectangle
+
+# Save the mask to a file
+cv2.imwrite('mask.png', mask)

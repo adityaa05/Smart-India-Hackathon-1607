@@ -1,0 +1,32 @@
+# Ignore logs
+*.log
+
+# Ignore checkpoints or dataset files
+*.csv
+*.txt
+
+# Ignore video output and samples
+*.avi
+*.mp4
+video samples/
+output_video.mp4
+
+# Ignore model weights
+*.pt
+*.weights
+yolov3.cfg
+saved_model.pb
+
+# Ignore IDE or system-specific files
+.idea/
+.vscode/
+*.tar.gz
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore any other dataset or sample directories
+datasets/
+runs/
+sample-vehicles-imgs/

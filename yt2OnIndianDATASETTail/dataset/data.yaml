@@ -1,0 +1,21 @@
+# Path to the dataset directory
+path: /home/adityaa/Desktop/Smart India Hackathon/yt2OnIndianDATASET/dataset
+
+# Relative paths to training, validation, and test images
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes in your dataset
+nc: 11
+
+# List of class names
+names: ['1', '2', 'Animal', 'Auto', 'Bus', 'Car', 'Carts', 'Person', 'Rikshaw', 'Truck', 'Two-wheeler']
+
+
+roboflow:
+  workspace: capstone-ssbpj
+  project: yolov8-indian-roads-format
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-ssbpj/yolov8-indian-roads-format/dataset/2

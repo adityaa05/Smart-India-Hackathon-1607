@@ -1,0 +1,21 @@
+slaves:
+  - direction: North
+    script_path: "/home/adityaa/Desktop/Smart India Hackathon/master-slave copy/slave01/main.py"
+    video_path: "/home/adityaa/Desktop/Smart India Hackathon/video samples/highway.mp4"
+    host: 0.0.0.0
+    port: 5000
+  - direction: South
+    script_path: "/home/adityaa/Desktop/Smart India Hackathon/master-slave copy/slave02/main.py"
+    video_path: "/home/adityaa/Desktop/Smart India Hackathon/video samples/highway.mp4"
+    host: 0.0.0.0
+    port: 5000
+  - direction: East
+    script_path: "/home/adityaa/Desktop/Smart India Hackathon/master-slave copy/slave03/main.py"
+    video_path: "/home/adityaa/Desktop/Smart India Hackathon/video samples/highway.mp4"
+    host: 0.0.0.0
+    port: 5000
+  - direction: West
+    script_path: "/home/adityaa/Desktop/Smart India Hackathon/master-slave copy/slave04/main.py"
+    video_path: "/home/adityaa/Desktop/Smart India Hackathon/video samples/highway.mp4"
+    host: 0.0.0.0
+    port: 5000
